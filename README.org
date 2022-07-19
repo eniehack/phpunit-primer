@@ -1,0 +1,19 @@
+#+title: PHPUnit Primer
+#+options: toc:nil
+
+* PHPUnit Primer
+
+a repository for workshop to learn how to use PHPUnit, for nikkiame developer.
+
+** 対象とする人
+
+- PHP の経験が少ない人
+- テストの経験が少ない人
+
+** 流れ
+1. =git clone https://github.com/eniehack/phpunit-primer.git= を実行する
+2. =cd phpunit-primer=
+3. =composer install=
+4. =./vendor/bin/phpunit=
+5. ~src/Sample/Sample.php~ と ~tests/Sample/SampleTest.php~ を見比べて、テストの書き方をなんとなく感じる
+6. 各仕様(~src/*/README~)ごとに実装する

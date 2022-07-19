@@ -1,0 +1,19 @@
+{
+    "name": "eniehack/phpunit-primer",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpunitPrimer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nakaya",
+            "email": "eniehack@outlook.jp"
+        }
+    ]
+}
