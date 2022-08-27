@@ -1,0 +1,7 @@
+#+title: Era
+
+* 仕様
+- =int= で西暦を与えると、 =string= で「平成 n 年」を返す
+- =Date= クラスを与えられるように
+- =string= などが与えられたら、 =TypeError= を出す
+- 紀元前の年が与えられたならば、 =ValueError= を返す

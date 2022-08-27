@@ -17,3 +17,11 @@ a repository for workshop to learn how to use PHPUnit, for nikkiame developer.
 4. =./vendor/bin/phpunit=
 5. ~src/Sample/Sample.php~ と ~tests/Sample/SampleTest.php~ を見比べて、テストの書き方をなんとなく感じる
 6. 各仕様(~src/*/README~)ごとに実装する
+
+** 意識すること
+
+- Red-Green のサイクルを回す
+- 小さく生んで大きく育てる
+  - テストは最小限に
+    - クリアしたら、テストを 1 つ加えるを繰り返す
+  - 実装も、テストをパスできる程度(最小限)に
